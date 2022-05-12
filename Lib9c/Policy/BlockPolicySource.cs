@@ -59,10 +59,14 @@ namespace Nekoyume.BlockChain.Policy
         public const long V100095ObsoleteIndex = 3_317_632;
 
         public const long V100096ObsoleteIndex = 3_317_632;
-        
+
         public const long V100170ObsoleteIndex = 3_810_000;
 
         public const long V100190ObsoleteIndex = 4_204_863;
+
+        public const long V100193ObsoleteIndex = 3_975_929;
+
+        public const long V100210ObsoleteIndex = 4_246_225;
 
         public const long PermissionedMiningStartIndex = 2_225_500;
 
@@ -286,6 +290,20 @@ namespace Nekoyume.BlockChain.Policy
 
             try
             {
+                // Check if it is a no-op transaction to prove it's made by the authorized miner.
+                if (IsAuthorizedMinerTransactionRaw(transaction, allAuthorizedMiners))
+                {
+                    // FIXME: This works under a strong assumption that any miner that was ever
+                    // in a set of authorized miners can only create transactions without
+                    // any actions.
+                    return transaction.Actions.Any()
+                        ? new TxPolicyViolationException(
+                            transaction.Id,
+                            $"Transaction {transaction.Id} by an authorized miner should not " +
+                            $"have any action: {transaction.Actions.Count}")
+                        : null;
+                }
+
                 // Check ActivateAccount
                 if (transaction.Actions.Count == 1 &&
                     transaction.Actions.First().InnerAction is IActivateAction aa)
