@@ -25516,6 +25516,12 @@ references:
   commentId: F:Nekoyume.Addresses.AdventureBoss
   fullName: Nekoyume.Addresses.AdventureBoss
   nameWithType: Addresses.AdventureBoss
+- uid: Nekoyume.Addresses.AdventureCp
+  name: AdventureCp
+  href: api/Nekoyume.Addresses.html#Nekoyume_Addresses_AdventureCp
+  commentId: F:Nekoyume.Addresses.AdventureCp
+  fullName: Nekoyume.Addresses.AdventureCp
+  nameWithType: Addresses.AdventureCp
 - uid: Nekoyume.Addresses.AdventureSeasonAddress(System.Int64)
   name: AdventureSeasonAddress(long)
   href: api/Nekoyume.Addresses.html#Nekoyume_Addresses_AdventureSeasonAddress_System_Int64_
@@ -25544,6 +25550,12 @@ references:
   commentId: F:Nekoyume.Addresses.Arena
   fullName: Nekoyume.Addresses.Arena
   nameWithType: Addresses.Arena
+- uid: Nekoyume.Addresses.ArenaCp
+  name: ArenaCp
+  href: api/Nekoyume.Addresses.html#Nekoyume_Addresses_ArenaCp
+  commentId: F:Nekoyume.Addresses.ArenaCp
+  fullName: Nekoyume.Addresses.ArenaCp
+  nameWithType: Addresses.ArenaCp
 - uid: Nekoyume.Addresses.AssetMinters
   name: AssetMinters
   href: api/Nekoyume.Addresses.html#Nekoyume_Addresses_AssetMinters
@@ -25643,12 +25655,12 @@ references:
   commentId: F:Nekoyume.Addresses.CommunityPool
   fullName: Nekoyume.Addresses.CommunityPool
   nameWithType: Addresses.CommunityPool
-- uid: Nekoyume.Addresses.CpState
-  name: CpState
-  href: api/Nekoyume.Addresses.html#Nekoyume_Addresses_CpState
-  commentId: F:Nekoyume.Addresses.CpState
-  fullName: Nekoyume.Addresses.CpState
-  nameWithType: Addresses.CpState
+- uid: Nekoyume.Addresses.CpRootAddress
+  name: CpRootAddress
+  href: api/Nekoyume.Addresses.html#Nekoyume_Addresses_CpRootAddress
+  commentId: F:Nekoyume.Addresses.CpRootAddress
+  fullName: Nekoyume.Addresses.CpRootAddress
+  nameWithType: Addresses.CpRootAddress
 - uid: Nekoyume.Addresses.Credits
   name: Credits
   href: api/Nekoyume.Addresses.html#Nekoyume_Addresses_Credits
@@ -25751,6 +25763,19 @@ references:
   isSpec: "True"
   fullName: Nekoyume.Addresses.GetCombinationSlotAddress
   nameWithType: Addresses.GetCombinationSlotAddress
+- uid: Nekoyume.Addresses.GetCpAccountAddress(Nekoyume.Model.EnumType.BattleType)
+  name: GetCpAccountAddress(BattleType)
+  href: api/Nekoyume.Addresses.html#Nekoyume_Addresses_GetCpAccountAddress_Nekoyume_Model_EnumType_BattleType_
+  commentId: M:Nekoyume.Addresses.GetCpAccountAddress(Nekoyume.Model.EnumType.BattleType)
+  fullName: Nekoyume.Addresses.GetCpAccountAddress(Nekoyume.Model.EnumType.BattleType)
+  nameWithType: Addresses.GetCpAccountAddress(BattleType)
+- uid: Nekoyume.Addresses.GetCpAccountAddress*
+  name: GetCpAccountAddress
+  href: api/Nekoyume.Addresses.html#Nekoyume_Addresses_GetCpAccountAddress_
+  commentId: Overload:Nekoyume.Addresses.GetCpAccountAddress
+  isSpec: "True"
+  fullName: Nekoyume.Addresses.GetCpAccountAddress
+  nameWithType: Addresses.GetCpAccountAddress
 - uid: Nekoyume.Addresses.GetDailyCrystalCostAddress(System.Int32)
   name: GetDailyCrystalCostAddress(int)
   href: api/Nekoyume.Addresses.html#Nekoyume_Addresses_GetDailyCrystalCostAddress_System_Int32_
@@ -26135,6 +26160,12 @@ references:
   commentId: F:Nekoyume.Addresses.Raid
   fullName: Nekoyume.Addresses.Raid
   nameWithType: Addresses.Raid
+- uid: Nekoyume.Addresses.RaidCp
+  name: RaidCp
+  href: api/Nekoyume.Addresses.html#Nekoyume_Addresses_RaidCp
+  commentId: F:Nekoyume.Addresses.RaidCp
+  fullName: Nekoyume.Addresses.RaidCp
+  nameWithType: Addresses.RaidCp
 - uid: Nekoyume.Addresses.Ranking
   name: Ranking
   href: api/Nekoyume.Addresses.html#Nekoyume_Addresses_Ranking
@@ -68762,15 +68793,15 @@ references:
   fullName.vb: Nekoyume.Model.State.CpState.New(Bencodex.Types.IValue)
   nameWithType: CpState.CpState(IValue)
   nameWithType.vb: CpState.New(IValue)
-- uid: Nekoyume.Model.State.CpState.#ctor(Libplanet.Crypto.Address,System.Int32)
-  name: CpState(Address, int)
-  href: api/Nekoyume.Model.State.CpState.html#Nekoyume_Model_State_CpState__ctor_Libplanet_Crypto_Address_System_Int32_
-  commentId: M:Nekoyume.Model.State.CpState.#ctor(Libplanet.Crypto.Address,System.Int32)
-  name.vb: New(Address, Integer)
-  fullName: Nekoyume.Model.State.CpState.CpState(Libplanet.Crypto.Address, int)
-  fullName.vb: Nekoyume.Model.State.CpState.New(Libplanet.Crypto.Address, Integer)
-  nameWithType: CpState.CpState(Address, int)
-  nameWithType.vb: CpState.New(Address, Integer)
+- uid: Nekoyume.Model.State.CpState.#ctor(System.Int32)
+  name: CpState(int)
+  href: api/Nekoyume.Model.State.CpState.html#Nekoyume_Model_State_CpState__ctor_System_Int32_
+  commentId: M:Nekoyume.Model.State.CpState.#ctor(System.Int32)
+  name.vb: New(Integer)
+  fullName: Nekoyume.Model.State.CpState.CpState(int)
+  fullName.vb: Nekoyume.Model.State.CpState.New(Integer)
+  nameWithType: CpState.CpState(int)
+  nameWithType.vb: CpState.New(Integer)
 - uid: Nekoyume.Model.State.CpState.#ctor*
   name: CpState
   href: api/Nekoyume.Model.State.CpState.html#Nekoyume_Model_State_CpState__ctor_
@@ -68781,18 +68812,6 @@ references:
   fullName.vb: Nekoyume.Model.State.CpState.New
   nameWithType: CpState.CpState
   nameWithType.vb: CpState.New
-- uid: Nekoyume.Model.State.CpState.AccountAddress
-  name: AccountAddress
-  href: api/Nekoyume.Model.State.CpState.html#Nekoyume_Model_State_CpState_AccountAddress
-  commentId: F:Nekoyume.Model.State.CpState.AccountAddress
-  fullName: Nekoyume.Model.State.CpState.AccountAddress
-  nameWithType: CpState.AccountAddress
-- uid: Nekoyume.Model.State.CpState.AvatarAddress
-  name: AvatarAddress
-  href: api/Nekoyume.Model.State.CpState.html#Nekoyume_Model_State_CpState_AvatarAddress
-  commentId: F:Nekoyume.Model.State.CpState.AvatarAddress
-  fullName: Nekoyume.Model.State.CpState.AvatarAddress
-  nameWithType: CpState.AvatarAddress
 - uid: Nekoyume.Model.State.CpState.Bencoded
   name: Bencoded
   href: api/Nekoyume.Model.State.CpState.html#Nekoyume_Model_State_CpState_Bencoded
@@ -68812,19 +68831,6 @@ references:
   commentId: F:Nekoyume.Model.State.CpState.Cp
   fullName: Nekoyume.Model.State.CpState.Cp
   nameWithType: CpState.Cp
-- uid: Nekoyume.Model.State.CpState.DeriveAddress(Libplanet.Crypto.Address,Nekoyume.Model.EnumType.BattleType)
-  name: DeriveAddress(Address, BattleType)
-  href: api/Nekoyume.Model.State.CpState.html#Nekoyume_Model_State_CpState_DeriveAddress_Libplanet_Crypto_Address_Nekoyume_Model_EnumType_BattleType_
-  commentId: M:Nekoyume.Model.State.CpState.DeriveAddress(Libplanet.Crypto.Address,Nekoyume.Model.EnumType.BattleType)
-  fullName: Nekoyume.Model.State.CpState.DeriveAddress(Libplanet.Crypto.Address, Nekoyume.Model.EnumType.BattleType)
-  nameWithType: CpState.DeriveAddress(Address, BattleType)
-- uid: Nekoyume.Model.State.CpState.DeriveAddress*
-  name: DeriveAddress
-  href: api/Nekoyume.Model.State.CpState.html#Nekoyume_Model_State_CpState_DeriveAddress_
-  commentId: Overload:Nekoyume.Model.State.CpState.DeriveAddress
-  isSpec: "True"
-  fullName: Nekoyume.Model.State.CpState.DeriveAddress
-  nameWithType: CpState.DeriveAddress
 - uid: Nekoyume.Model.State.CpState.Serialize
   name: Serialize()
   href: api/Nekoyume.Model.State.CpState.html#Nekoyume_Model_State_CpState_Serialize
