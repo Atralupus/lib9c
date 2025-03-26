@@ -38624,6 +38624,31 @@ references:
   commentId: F:Nekoyume.Helper.RuneHelper.DailyRewardRune
   fullName: Nekoyume.Helper.RuneHelper.DailyRewardRune
   nameWithType: RuneHelper.DailyRewardRune
+- uid: Nekoyume.Helper.RuneHelper.GetRuneOptions(System.Collections.Generic.IEnumerable{Nekoyume.Action.RuneSlotInfo},Nekoyume.Model.State.AllRuneState,Nekoyume.TableData.RuneOptionSheet)
+  name: GetRuneOptions(IEnumerable<RuneSlotInfo>, AllRuneState, RuneOptionSheet)
+  href: api/Nekoyume.Helper.RuneHelper.html#Nekoyume_Helper_RuneHelper_GetRuneOptions_System_Collections_Generic_IEnumerable_Nekoyume_Action_RuneSlotInfo__Nekoyume_Model_State_AllRuneState_Nekoyume_TableData_RuneOptionSheet_
+  commentId: M:Nekoyume.Helper.RuneHelper.GetRuneOptions(System.Collections.Generic.IEnumerable{Nekoyume.Action.RuneSlotInfo},Nekoyume.Model.State.AllRuneState,Nekoyume.TableData.RuneOptionSheet)
+  name.vb: GetRuneOptions(IEnumerable(Of RuneSlotInfo), AllRuneState, RuneOptionSheet)
+  fullName: Nekoyume.Helper.RuneHelper.GetRuneOptions(System.Collections.Generic.IEnumerable<Nekoyume.Action.RuneSlotInfo>, Nekoyume.Model.State.AllRuneState, Nekoyume.TableData.RuneOptionSheet)
+  fullName.vb: Nekoyume.Helper.RuneHelper.GetRuneOptions(System.Collections.Generic.IEnumerable(Of Nekoyume.Action.RuneSlotInfo), Nekoyume.Model.State.AllRuneState, Nekoyume.TableData.RuneOptionSheet)
+  nameWithType: RuneHelper.GetRuneOptions(IEnumerable<RuneSlotInfo>, AllRuneState, RuneOptionSheet)
+  nameWithType.vb: RuneHelper.GetRuneOptions(IEnumerable(Of RuneSlotInfo), AllRuneState, RuneOptionSheet)
+- uid: Nekoyume.Helper.RuneHelper.GetRuneOptions(System.Collections.Generic.IEnumerable{Nekoyume.TableData.RuneWeightSheet.RuneInfo},Nekoyume.Model.State.AllRuneState,Nekoyume.TableData.RuneOptionSheet)
+  name: GetRuneOptions(IEnumerable<RuneInfo>, AllRuneState, RuneOptionSheet)
+  href: api/Nekoyume.Helper.RuneHelper.html#Nekoyume_Helper_RuneHelper_GetRuneOptions_System_Collections_Generic_IEnumerable_Nekoyume_TableData_RuneWeightSheet_RuneInfo__Nekoyume_Model_State_AllRuneState_Nekoyume_TableData_RuneOptionSheet_
+  commentId: M:Nekoyume.Helper.RuneHelper.GetRuneOptions(System.Collections.Generic.IEnumerable{Nekoyume.TableData.RuneWeightSheet.RuneInfo},Nekoyume.Model.State.AllRuneState,Nekoyume.TableData.RuneOptionSheet)
+  name.vb: GetRuneOptions(IEnumerable(Of RuneInfo), AllRuneState, RuneOptionSheet)
+  fullName: Nekoyume.Helper.RuneHelper.GetRuneOptions(System.Collections.Generic.IEnumerable<Nekoyume.TableData.RuneWeightSheet.RuneInfo>, Nekoyume.Model.State.AllRuneState, Nekoyume.TableData.RuneOptionSheet)
+  fullName.vb: Nekoyume.Helper.RuneHelper.GetRuneOptions(System.Collections.Generic.IEnumerable(Of Nekoyume.TableData.RuneWeightSheet.RuneInfo), Nekoyume.Model.State.AllRuneState, Nekoyume.TableData.RuneOptionSheet)
+  nameWithType: RuneHelper.GetRuneOptions(IEnumerable<RuneWeightSheet.RuneInfo>, AllRuneState, RuneOptionSheet)
+  nameWithType.vb: RuneHelper.GetRuneOptions(IEnumerable(Of RuneWeightSheet.RuneInfo), AllRuneState, RuneOptionSheet)
+- uid: Nekoyume.Helper.RuneHelper.GetRuneOptions*
+  name: GetRuneOptions
+  href: api/Nekoyume.Helper.RuneHelper.html#Nekoyume_Helper_RuneHelper_GetRuneOptions_
+  commentId: Overload:Nekoyume.Helper.RuneHelper.GetRuneOptions
+  isSpec: "True"
+  fullName: Nekoyume.Helper.RuneHelper.GetRuneOptions
+  nameWithType: RuneHelper.GetRuneOptions
 - uid: Nekoyume.Helper.RuneHelper.StakeRune
   name: StakeRune
   href: api/Nekoyume.Helper.RuneHelper.html#Nekoyume_Helper_RuneHelper_StakeRune
