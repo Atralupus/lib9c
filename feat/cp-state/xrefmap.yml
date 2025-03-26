@@ -25655,12 +25655,6 @@ references:
   commentId: F:Nekoyume.Addresses.CommunityPool
   fullName: Nekoyume.Addresses.CommunityPool
   nameWithType: Addresses.CommunityPool
-- uid: Nekoyume.Addresses.CpRootAddress
-  name: CpRootAddress
-  href: api/Nekoyume.Addresses.html#Nekoyume_Addresses_CpRootAddress
-  commentId: F:Nekoyume.Addresses.CpRootAddress
-  fullName: Nekoyume.Addresses.CpRootAddress
-  nameWithType: Addresses.CpRootAddress
 - uid: Nekoyume.Addresses.Credits
   name: Credits
   href: api/Nekoyume.Addresses.html#Nekoyume_Addresses_Credits
